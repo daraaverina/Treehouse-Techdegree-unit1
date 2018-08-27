@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Color pallete */
 #EDFAFD
 #AED9DA
@@ -10,6 +11,13 @@
   box-sizing: border-box;
 }
 
+=======
+/* Global Layout Set-up */
+* { 
+  box-sizing: border-box;
+}
+  
+>>>>>>> 90bac3bfb4962ed48695b83212857afc5535fbce
 body {
   margin: 0;
   padding: 0;
@@ -90,7 +98,11 @@ header .profile-image:hover {
   border-radius: 5px;
   display: table;
   margin: 10px auto;
+<<<<<<< HEAD
 }
+=======
+} 
+>>>>>>> 90bac3bfb4962ed48695b83212857afc5535fbce
 .location {
   background-color: #222;
   color: yellow;
@@ -106,7 +118,11 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
+<<<<<<< HEAD
   border-color: #135589;
+=======
+  border-color: #ff99ff;
+>>>>>>> 90bac3bfb4962ed48695b83212857afc5535fbce
 }
 
 ul.skills {
@@ -159,7 +175,11 @@ a.social {
   transition: all .5s;
 }
 a.twitter {
+<<<<<<< HEAD
   background-image: url(images/images/iconmonstr-instagram-11.svg);
+=======
+  background-image: url(images/twitter.svg);
+>>>>>>> 90bac3bfb4962ed48695b83212857afc5535fbce
 }
 a.linkedin {
   background-image: url(images/linkedin.svg);
@@ -176,10 +196,17 @@ a.social:hover {
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
+<<<<<<< HEAD
 
   .flex {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
       display: flex;
+=======
+  
+  .flex {
+      display: -ms-flexbox;      /* TWEENER - IE 10 */
+      display: flex; 
+>>>>>>> 90bac3bfb4962ed48695b83212857afc5535fbce
       max-width: 1200px;
       -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -211,3 +238,7 @@ a.social:hover {
   }
 
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 90bac3bfb4962ed48695b83212857afc5535fbce
