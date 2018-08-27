@@ -1,8 +1,15 @@
+/* Color pallete */
+#EDFAFD
+#AED9DA
+#3DDAD7
+#2A93D5
+#135589
+
 /* Global Layout Set-up */
-* { 
+* {
   box-sizing: border-box;
 }
-  
+
 body {
   margin: 0;
   padding: 0;
@@ -83,7 +90,7 @@ header .profile-image:hover {
   border-radius: 5px;
   display: table;
   margin: 10px auto;
-} 
+}
 .location {
   background-color: #222;
   color: yellow;
@@ -99,7 +106,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #135589;
 }
 
 ul.skills {
@@ -152,7 +159,7 @@ a.social {
   transition: all .5s;
 }
 a.twitter {
-  background-image: url(images/twitter.svg);
+  background-image: url(images/images/iconmonstr-instagram-11.svg);
 }
 a.linkedin {
   background-image: url(images/linkedin.svg);
@@ -169,10 +176,10 @@ a.social:hover {
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
-  
+
   .flex {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
-      display: flex; 
+      display: flex;
       max-width: 1200px;
       -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -204,4 +211,3 @@ a.social:hover {
   }
 
 }
-
