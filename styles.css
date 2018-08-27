@@ -122,7 +122,7 @@ header .profile-image:hover {
 
 ul.skills {
   padding: 0;
-  text-align: center;
+  text-align: left;
 }
 
 .skills li {
@@ -140,6 +140,7 @@ ul.skills {
 }
 
 footer {
+  text-align: center;
   width: 100%;
   min-height: 30px;
   padding: 20px 0 40px 20px;
