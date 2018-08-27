@@ -102,8 +102,14 @@ header .profile-image:hover {
 
 .location {
   box-shadow:2px 3px 5px #999;
-  background-color: #222;
-  color: yellow;
+  background-color: rgba(174,217,218, 0.8);
+  color: #135589;
+}
+.location a {
+  color: #135589;
+}
+.location a:hover {
+  color: #F2807D;
 }
 .card {
   box-shadow:2px 3px 5px #999;
@@ -115,6 +121,13 @@ header .profile-image:hover {
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
+}
+.card a {
+  color: inherit;
+}
+
+.card a:hover {
+  color: #2A93D5;
 }
 .card:hover {
   border-color: #135589;
@@ -129,15 +142,16 @@ ul.skills {
   box-shadow:2px 3px 5px #999;
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #F2807D;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: rgb(174,217,218);
 }
+
 
 footer {
   text-align: center;
